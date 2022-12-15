@@ -15,7 +15,7 @@ namespace WebApplication2.Views
         public ActionResult Index()
         {
             Debug.WriteLine("Opnening a connection to data base ...");
-            SQLiteConnection sqlCo = new SQLiteConnection("Data Source=C:/Users/MSI/Downloads/2022 GL3 .NET Framework TP3 - SQLite database.db;");
+            SQLiteConnection sqlCo = new SQLiteConnection("Data Source=C:/Users/MSI/source/repos/WebApplication2/WebApplication2/Tp3.db;");
             try
             {
                 sqlCo.Open();
